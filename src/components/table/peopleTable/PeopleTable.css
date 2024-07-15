@@ -1,0 +1,48 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+thead th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 15px;
+  text-transform: uppercase;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #4CAF50;
+}
+
+tbody tr.green {
+  background-color: #c6f9da;
+}
+
+tbody tr.blue {
+  background-color: #c8eaf8;
+}
+
+
+tbody td {
+  padding: 12px 15px;
+}
+
+tbody td.married {
+  background-color: yellow;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
